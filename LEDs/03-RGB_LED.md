@@ -34,7 +34,7 @@ import neopixel
 
 Save to your board and... an error! That's because the `neopixel` library isn't included with Circuit Python by default. Instead, we have to manually download and add it to our board.
 
-Go to the [Circuit Python libraries page](https://circuitpython.org/libraries) and find the "bundle" for version `7.x`. (Don't download earlier versions, the Python source, "community" bundle, etc.)
+Go to the [Circuit Python libraries page](https://circuitpython.org/libraries) and find the "bundle" for version `8.x`. (Don't download earlier versions, the Python source, "community" bundle, etc.)
 
 ![](Images/CircuitPythonBundle.png)
 
