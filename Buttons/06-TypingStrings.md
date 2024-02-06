@@ -137,7 +137,7 @@ while True:
     led.value = True
     
     # write something
-    ayout.write('hello')
+    layout.write('hello')
     keyboard.press(Keycode.RETURN)
     keyboard.release_all()
     
