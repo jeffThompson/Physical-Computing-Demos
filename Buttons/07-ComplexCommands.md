@@ -138,6 +138,7 @@ from adafruit_hid.keyboard import Keyboard
 from adafruit_hid.keycode import Keycode
 from adafruit_hid.keyboard_layout_us import KeyboardLayoutUS
 
+import adafruit_ticks
 from adafruit_debouncer import Debouncer
 
 # the extra library for the media keys

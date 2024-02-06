@@ -108,6 +108,7 @@ import board
 import digitalio
 import time
 
+import adafruit_ticks
 from adafruit_debouncer import Debouncer
 
 import usb_hid
@@ -124,6 +125,7 @@ led.direction = digitalio.Direction.OUTPUT
 
 time.sleep(1)
 keyboard = Keyboard(usb_hid.devices)
+layout = KeyboardLayoutUS(keyboard)
 
 while True:
   button.update()
@@ -135,13 +137,13 @@ while True:
     led.value = True
     
     # write something
-    keyboard_layout.write('hello')
+    ayout.write('hello')
     keyboard.press(Keycode.RETURN)
     keyboard.release_all()
     
     # then write something else
     # and then delete it
-    keyboard_layout.write('farts')
+    layout.write('farts')
     
     # add some delays throughout to 
     # make it more realistic
