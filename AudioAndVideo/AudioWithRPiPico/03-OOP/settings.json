@@ -1,0 +1,11 @@
+{
+  "min_bpm": 30,
+  "max_bpm": 200,
+  "blink_on_duration": 0.08,
+  "led_brightness": 0.01,
+  "audio_level": 1.0,
+  "attack_time": 0.2,
+  "release_time": 0.4,
+  "sustain_level": 0.8,
+  "sample_rate": 22050
+}
